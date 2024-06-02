@@ -1,0 +1,391 @@
+.CenterContainer{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flexbox;
+}
+
+.ProfileContent {
+    width: 800px;
+    height: auto;
+
+    /* background-color: rgba(255, 255, 255, 0.121);   */
+    /* backdrop-filter: blur(2px); */
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 15px;
+
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.ProfilePicture {
+    border-radius: 50%;
+    box-shadow: 0 0 5px whitesmoke;
+    position: relative;
+
+    width: 220px;
+    height: 220px;
+
+    background-image: url("../imgs/ProfilePic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    transition: top ease 0.3s;
+}
+
+.ProfilePictureHoveredMode {
+    border-radius: 50%;
+    box-shadow: 0 0 5px whitesmoke;
+    position: relative;
+
+    width: 220px;
+    height: 220px;
+
+    background-image: url("../imgs/ProfilePic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    transition: ease .3s;
+}
+
+.ProfilePictureHoveredMode:hover {
+    cursor: pointer;
+
+    box-shadow: 0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke;
+
+    transition: ease .3s;
+}
+
+.clickable {
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    right: -100px;
+
+    letter-spacing: 6px;
+
+    pointer-events: none;
+}
+
+.clickable::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+
+    background-color: red;
+}
+
+.ProfilePicture:hover {
+    cursor: pointer;
+
+    box-shadow: 0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke;
+
+    transition: ease .3s;
+}
+
+.ProfilePicture:hover .clickable {
+    transition: ease .3s;
+    visibility: hidden;
+}
+
+.ProfilePicture:hover .AboutMe {
+    transition: ease .3s;
+    visibility: visible;
+}
+
+.NameText {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 0;
+    text-shadow: 0 0 1px black;
+    
+    position: relative;
+    border-bottom: whitesmoke 2px solid;
+
+    cursor: default;
+}
+
+.Experience {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke;
+    position: relative;
+    margin: 25px 0 0 0;
+
+    cursor: default;
+}
+
+.ExperienceText {
+    text-align: center;
+    font-size: 28px;
+    color: aliceblue;
+    position: relative;
+    margin: 0;
+    text-shadow: 0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke;
+
+    cursor: default;
+}
+
+.OccupationText { 
+    text-align: center;
+    position: relative;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin: 0;
+    color:rgb(138, 113, 97);
+    text-shadow: 0 0 5px #ffffff;
+
+    cursor: default;
+}
+
+.AboutContainer {
+
+    display: grid;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    color: whitesmoke;
+
+    background-color: rgba(255, 255, 255, 0.121);
+    backdrop-filter: blur(20px);
+
+    padding: 10px;
+}
+
+.Hidden {
+    visibility: hidden;
+}
+
+.AboutMe {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: fit-content;
+}
+
+.AboutMe h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.AboutMe p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: white 2px solid; 
+    text-align: justify;
+
+    text-shadow: 0 0 2px black;
+}
+
+.StrengthProfile h2{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.StrengthProfile p{
+    font-size: 20px;
+    text-align: justify;
+
+    text-shadow: 0 0 2px black;
+}
+
+.SkillProfile h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.SkillProfile ul {
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    text-shadow: 0 0 2px black;
+}
+
+/* Work Experience */
+
+.WorkExperienceContainer {
+    width: 100%;
+    height: 600px;
+
+    background-color: rgba(255, 255, 255, 0.121);
+    backdrop-filter: blur(20px);
+
+    color: whitesmoke;
+
+    display: grid;
+    grid-template-rows: auto repeat(10);
+
+    box-sizing: border-box;
+    padding: 15px;
+
+    overflow-y: scroll;
+}
+
+.WorkExperienceText{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+
+    text-shadow: 0 0 2px black;
+}
+
+.WorkExperienceContainer div h2 {
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 15px;
+    
+}
+
+.WorkExperienceContainer div {
+    border-bottom: white 2px solid;
+
+    text-shadow: 0 0 2px black;
+}
+
+.WorkExperienceContainer div h2 li ul{
+    font-size: 20px;
+    text-align: justify;
+
+    text-shadow: 0 0 2px black;
+}
+
+.WorkExperienceContainer::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0.121);
+    backdrop-filter: blur(20px);
+    width: 5px;
+}
+
+.WorkExperienceContainer::-webkit-scrollbar-button{
+    display: none;
+}
+
+.WorkExperienceContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 5px;
+}
+
+.WorkExperienceContainer::-webkit-scrollbar-thumb:hover {
+    cursor: grab;
+}
+
+/* WORKS PAGE CSS */
+
+.MainWorksContainer {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 25px;
+
+    display: grid;
+
+    grid-template-columns: 500px 1fr;
+}
+
+.WorksContainer {
+    border-radius: 10px 0 0 10px ;
+    box-sizing: border-box;
+
+    width: auto;
+    height: auto;
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.121);
+    backdrop-filter: blur(20px);
+
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.WorksContainer::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0.121);
+    backdrop-filter: blur(20px);
+    width: 5px;
+}
+
+.WorksContainer::-webkit-scrollbar-button{
+    display: none;
+}
+
+.WorksContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 5px;
+}
+
+.WorksContainer::-webkit-scrollbar-thumb:hover {
+    cursor: grab;
+}
+
+
+.AboutContainer::-webkit-scrollbar- {
+    display: none;
+}
+
+.Image-Container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 5px;
+}
+
+.Image-Container img {
+    width: 100%;
+    height: 286px;
+}
+
+.Image-Container img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+/*Image Zoom*/
+
+.SelectedImage{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.121);
+    backdrop-filter: blur(20px);
+
+    padding: 25px;
+    border-radius: 0 10px 10px 0;
+}
+
+.SelectedImage img{
+    width: 100%;
+    height: 100%;
+}

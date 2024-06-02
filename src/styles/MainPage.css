@@ -1,0 +1,19 @@
+.MainContainer {
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 70px;
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+
+    background-image: url("../imgs/wallpaper2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
