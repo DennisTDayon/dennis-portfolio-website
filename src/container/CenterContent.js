@@ -8,7 +8,7 @@ function CenterContent() {
     const [Toggle, setToggle] = useState(true);
     const [AboutToggle, setAboutToggle] = useState(false);
     const [Profileclass, setProfileClass] = useState("ProfilePicture");
-    const [CurrentImage, setCurrentImage] = useState('./dennis-portfolio-website/assets/BARSTOOL 1.jpg');
+    const [CurrentImage, setCurrentImage] = useState('./assets/BARSTOOL 1.jpg');
 
     const {SetToggleWorkPage,ToggleWorkPage} = useContext(NavigationContext);
     const {ToggleExperiencePage, SetToggleExperiencePage} = useContext(NavigationContext);
@@ -165,26 +165,26 @@ function CenterContent() {
                 <div className="MainWorksContainer">
                     <div className="WorksContainer">
                         <div className="Image-Container">
-                            <img className='Image1' src='./dennis-portfolio-website/assets/BARSTOOL 1.jpg' alt="BarStool1" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image2' src='./dennis-portfolio-website/assets/BARSTOOL 2.jpg' alt="BarStool2" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image3' src='./dennis-portfolio-website/assets/BARSTOOL 3.jpg' alt="BarStool3" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image4' src='./dennis-portfolio-website/assets/(Montecillo)DRESSER-MIRROR.jpg' alt="Dresser Mirror" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image5' src='./dennis-portfolio-website/assets/(Noah)DINING CHAIR 2.jpg' alt="Dining Chair" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/Noah Chair Draft.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/CHEST.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/DRESSER.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/EXTENSION DINING TABLE.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/GAME TABLE.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/LEATHER SOFA.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/METAL DINING CHAIR.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/METAL QUEEN BED.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/NIGHTSTAND 1.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/NIGHTSTAND 2.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/NIGHTSTAND 3.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/ROTATING TOP DESK.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/TV CONSOLE 1.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/VANITY DRESSER.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./dennis-portfolio-website/assets/wallpaper2.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image1' src='./assets/BARSTOOL 1.jpg' alt="BarStool1" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image2' src='./assets/BARSTOOL 2.jpg' alt="BarStool2" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image3' src='./assets/BARSTOOL 3.jpg' alt="BarStool3" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image4' src='./assets/(Montecillo)DRESSER-MIRROR.jpg' alt="Dresser Mirror" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image5' src='./assets/(Noah)DINING CHAIR 2.jpg' alt="Dining Chair" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/Noah Chair Draft.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/CHEST.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/DRESSER.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/EXTENSION DINING TABLE.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/GAME TABLE.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/LEATHER SOFA.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/METAL DINING CHAIR.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/METAL QUEEN BED.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NIGHTSTAND 1.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NIGHTSTAND 2.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NIGHTSTAND 3.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/ROTATING TOP DESK.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/TV CONSOLE 1.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/VANITY DRESSER.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/wallpaper2.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
                         </div>
                     </div>
                     <div className="SelectedImage">
