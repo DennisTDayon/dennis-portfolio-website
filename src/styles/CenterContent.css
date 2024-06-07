@@ -204,7 +204,8 @@
     border-bottom: white 2px solid; 
     text-align: justify;
 
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black,
+                0 0 4px black;
 }
 
 .StrengthProfile h2{
@@ -217,7 +218,8 @@
     font-size: 20px;
     text-align: justify;
 
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black,
+                0 0 4px black;
 }
 
 .SkillProfile h2 {
@@ -231,7 +233,8 @@
     list-style: none;
     text-align: center;
     padding: 0;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black,
+                0 0 4px black;
 }
 
 /* Work Experience */
@@ -259,7 +262,8 @@
     letter-spacing: 10px;
     font-size: 20px;
 
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black,
+                0 0 4px black;
 }
 
 .WorkExperienceContainer div h2 {
@@ -272,14 +276,16 @@
 .WorkExperienceContainer div {
     border-bottom: white 2px solid;
 
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black,
+                0 0 4px black;
 }
 
 .WorkExperienceContainer div h2 li ul{
     font-size: 20px;
     text-align: justify;
 
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black,
+                0 0 4px black;
 }
 
 .WorkExperienceContainer::-webkit-scrollbar {

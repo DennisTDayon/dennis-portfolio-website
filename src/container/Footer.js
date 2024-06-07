@@ -14,7 +14,6 @@ function Footer() {
             <ul>
                 <li onClick={ () => {SetToggleWorkPage(!ToggleWorkPage)} }>WORKS</li>
                 <li onClick={ () => {SetToggleExperiencePage(!ToggleExperiencePage)} }>EXPERIENCE</li>
-                <li>CONTACT</li>
             </ul>
         </div>
     )
