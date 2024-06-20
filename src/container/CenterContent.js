@@ -182,8 +182,16 @@ function CenterContent() {
                             <img className='Image6' src='./assets/NIGHTSTAND 2.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
                             <img className='Image6' src='./assets/NIGHTSTAND 3.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
                             <img className='Image6' src='./assets/ROTATING TOP DESK.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
-                            <img className='Image6' src='./assets/TV CONSOLE 1.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDININGTABLE/BLACK -BROWN STOOL.jpg' alt="BLACK -BROWN STOOL.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDININGTABLE/BLACK STOOL.jpg' alt="BLACK STOOL.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDININGTABLE/CHAIR.jpg' alt="CHAIR.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDININGTABLE/DINING TABLE.jpg' alt="DINING TABLE.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDININGTABLE/NEW DINIG GROUP.jpg' alt="NEW DINIG GROUP.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
                             <img className='Image6' src='./assets/VANITY DRESSER.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDINGROUP/CHAIR 1.jpg' alt="CHAIR 1.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDINGROUP/CHAIR 2.jpg' alt="CHAIR 2.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDINGROUP/RECTDINTABLE.jpg' alt="RECTDINTABLE.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
+                            <img className='Image6' src='./assets/NEWDINGROUP/ROUNDDINTABLE.jpg' alt="ROUNDDINTABLE.jpg" onClick={(e) => {setCurrentImage(e.target.src)}}/>
                             <img className='Image6' src='./assets/wallpaper2.jpg' alt="Dining Chair Draft" onClick={(e) => {setCurrentImage(e.target.src)}}/>
                         </div>
                     </div>
