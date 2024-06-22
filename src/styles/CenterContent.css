@@ -318,15 +318,13 @@
 
     display: grid;
 
-    grid-template-columns: 500px 1fr;
+    grid-template-columns: .4fr 1fr;
 }
 
 .WorksContainer {
     border-radius: 10px 0 0 10px ;
     box-sizing: border-box;
 
-    width: auto;
-    height: auto;
     position: relative;
 
     background-color: rgba(255, 255, 255, 0.121);
@@ -383,15 +381,19 @@
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    position: relative;
+
    
     background-color: rgba(255, 255, 255, 0.121);
     backdrop-filter: blur(20px);
 
     padding: 25px;
     border-radius: 0 10px 10px 0;
+    overflow-y: hidden;
 }
 
 .SelectedImage img{
+    object-fit: contain;
     width: 100%;
-    height: 818px;
+    height: 100%;
 }
