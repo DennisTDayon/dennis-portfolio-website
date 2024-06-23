@@ -367,7 +367,8 @@
 
 .Image-Container img {
     width: 100%;
-    height: 286px;
+    height: 100%;
+    /* height: 286px; */
 }
 
 .Image-Container img:hover {
